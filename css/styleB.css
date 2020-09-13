@@ -1,0 +1,24 @@
+#content{
+	text-align: center;
+	display: flex;
+	height: 100vh; 
+}
+.item{
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: #eeeff2;
+	width: 100px;
+	height: 150px;
+	border-left: dotted 10px #D0D0FF;
+	margin: 10px;
+    padding-left: 10px;
+}
+.item.F{
+	right:0px;
+    bottom:0px;
+	position: absolute;
+}
+.item:hover{
+	background-color: yellow;
+	color: goldenrod;
+}

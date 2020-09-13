@@ -1,0 +1,27 @@
+#content{
+	display:  flex;
+	flex-direction: column;
+	font-family: tahoma;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    
+}
+.item{
+	background-color: #eeeff2;
+	border: 1px solid #dddddd;
+	height: 100px;
+	width: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background:rgb(112, 185, 228);
+    transition: width 2s;
+    text-shadow: 2px 2px 5px blue;
+}
+.item.A:hover{ width: 300px;}
+.item.B:hover{width: 400px;}
+.item.C:hover{width: 500px;}
+.item.D:hover{width: 600px;}
+.item.E:hover{width: 700px;}
+.item.F:hover{width: 800px;}
